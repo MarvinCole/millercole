@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJOINTHOMEPAGE</title>
+    <link rel="Stylesheet" href="style.css" >
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Food<span>.</span></a>
+        <ul class="navigation">
+            <li><a href="./index.html"> <b> Home</b></a></li>
+            <li><a href="./about.html"><b>About</b></a></li>
+            <li><a href="./menu.html"><b>Menu</b></a></li>
+            <li><a href="./Expert.html"><b>Expert</b></a></li>
+            <li><a href="./contact.html"><b>Contact</b></a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class = "content">
+            <h2 class="titleText"><span>D</span>joint Restaurant</h2>
+            <br>
+            <br>
+            <p>Open Daily for Dine-In, Takeout & Delivery</p>
+          
+        </div>
+    </section>
+
+
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+           const header = document.querySelector('header');
+           header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>
+
