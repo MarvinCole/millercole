@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="Stylesheet" href="style.css" >
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Food<span>.</span></a>
+        <ul class="navigation">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./Expert.html">Expert</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText">Our<span> C</span>ontact</h2>
+            <p>Leave A Message For Us</p>
+            </div>
+            <div class="contactForm">
+            <h3>Order</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <textarea  placeholder="Message"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </section>
+    
+
+    
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+           const header = document.querySelector('header');
+           header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>
+
